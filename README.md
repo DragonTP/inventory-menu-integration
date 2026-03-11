@@ -47,14 +47,10 @@ The script follows a **3-step ETL process** to transform fragmented logs into a 
 
 ---
 
-### 🔗 Smart Integration & Styling
+### 🔗 Smart Integration
 
 - Performs a **Pandas horizontal concat** to align **Inventory and Menu** side-by-side.
 - Generates a **multi-sheet `.xlsx` report** using **ExcelWriter**.
-- Uses **Openpyxl** to:
-  - Auto-adjust **column widths**
-  - Add **borders**
-  - Produce a **clean, professional layout**
 
 ---
 
@@ -63,5 +59,4 @@ The script follows a **3-step ETL process** to transform fragmented logs into a 
 - **Python**
 - **Pandas**
 - **Regex**
-- **Openpyxl**
 - **ExcelWriter**
